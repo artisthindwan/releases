@@ -1,13 +1,5 @@
 // Minimal dark theme interactions
 document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('.platform-link, .social-link');
-    
-    links.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-        });
-    });
-    
     // Subtle parallax on cover art
     const coverArt = document.querySelector('.cover-art');
     if (coverArt) {
